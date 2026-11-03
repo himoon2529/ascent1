@@ -247,8 +247,6 @@ if st.button("분석하기", use_container_width=True):
                     "유형 판별 확률을 의미하지 않습니다."
                 )
 
-            except Exception:
-
-                st.error("분석 중 오류가 발생했습니다.")
-
-                st.exception(Exception)
+           except Exception as e:
+    st.error("분석 중 오류가 발생했습니다.")
+    st.exception(e)
