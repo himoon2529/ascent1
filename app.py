@@ -248,5 +248,5 @@ if st.button("분석하기", use_container_width=True):
                 )
 
     except Exception as e:
-    st.error("분석 중 오류가 발생했습니다.")
-    st.exception(e)
+     st.error("분석 중 오류가 발생했습니다.")
+     st.exception(e)
